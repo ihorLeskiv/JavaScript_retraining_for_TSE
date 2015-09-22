@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>lesson 1</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/lesson1.js"></script>
+</head>
+<body>
+
+<div class="container">    
+    
+    <div class="row">    
+        <form id="form" onsubmit="return false;">
+          <div class="form-group" calss="col-lg-6">
+            <label for="myInput">my TODO list: </label>
+            <input type="text" class="form-control" id="myInput"/>
+          </div>
+          <button type="submit" class="btn btn-default col-lg-2" onclick="addData();">Submit</button>
+        </form>
+    </div>
+
+    <div class="row">
+        <hr>
+        <div class="well">
+            <div id="result"></div>    
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
